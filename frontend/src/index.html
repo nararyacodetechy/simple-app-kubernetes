@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Tokopedia</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Selamat Datang di Tokopedia</h1>
+  </header>
+
+  <main>
+    <section id="products">
+      <h2>Daftar Produk</h2>
+      <div class="product-grid" id="productList"></div>
+    </section>
+
+    <section id="payment">
+      <h2>Pembayaran</h2>
+      <button onclick="makePayment()">Buat Pembayaran</button>
+      <p id="paymentStatus"></p>
+    </section>
+
+    <section id="shipping">
+      <h2>Pengiriman</h2>
+      <button onclick="makeShipment()">Buat Pengiriman</button>
+      <p id="shipmentStatus"></p>
+    </section>
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
